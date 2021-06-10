@@ -99,6 +99,37 @@ public class ComplexNumber {
 
 ![Screenshot (87)](https://user-images.githubusercontent.com/69143912/121505817-c773d500-ca00-11eb-8865-5e0834af7a57.png)
 
+ ## e)Java Program to Multiply two Numbers
+ import java.util.Scanner;
+
+
+public class MultiplyTwoNumbers {
+
+	public static void main(String[] args) {
+		
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter first number: ");
+
+        
+        int num1 = scan.nextInt();
+        
+        System.out.print("Enter second number: ");
+        int num2 = scan.nextInt();
+
+        
+        scan.close();
+        
+        
+        int product = num1*num2;
+        
+        
+        System.out.println("Output: "+product);
+
+
+	}
+
+}
+![Screenshot (89)](https://user-images.githubusercontent.com/69143912/121506520-6ac4ea00-ca01-11eb-910f-6c70e7f44ffb.png)
 
 
 
@@ -111,7 +142,12 @@ public class ComplexNumber {
 
 
 
-e)Java Program to Multiply two Numbers
+
+
+
+
+
+
 f)Java Program to check Leap Year
 g)Java Program to check whether input character is vowel or consonant
 h)Java Program to calculate compound interest
