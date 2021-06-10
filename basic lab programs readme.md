@@ -49,6 +49,7 @@ public class Odd_Even
 
 	public static void main(String[] args)
 	{
+	
 		  String binaryNumber1 = "10101", binaryNumber2 = "10001";
 
 		   
