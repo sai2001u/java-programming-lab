@@ -132,24 +132,76 @@ public class MultiplyTwoNumbers {
 ![Screenshot (89)](https://user-images.githubusercontent.com/69143912/121506520-6ac4ea00-ca01-11eb-910f-6c70e7f44ffb.png)
 
 
+  ## f)Java Program to check Leap Year
+    
+    import java.util.Scanner;
+
+public class CheckLeapYear {
+
+	public static void main(String[] args) {
+		
+		int year;
+    	Scanner scan = new Scanner(System.in);
+    	System.out.println("Enter any Year:");
+    	year = scan.nextInt();
+    	scan.close();
+        boolean isLeap = false;
+
+        if(year % 4 == 0)
+        {
+            if( year % 100 == 0)
+            {
+                if ( year % 400 == 0)
+                    isLeap = true;
+                else
+                    isLeap = false;
+            }
+            else
+                isLeap = true;
+        }
+        else {
+            isLeap = false;
+        }
+
+        if(isLeap==true)
+            System.out.println(year + " is a Leap Year.");
+        else
+            System.out.println(year + " is not a Leap Year.");
+
+
+	}
+
+}
+![Screenshot (91)](https://user-images.githubusercontent.com/69143912/121507062-ed4da980-ca01-11eb-9f3a-74cf8b6e3a45.png)
+
+##  g)Java Program to check whether input character is vowel or consonant
+
+import java.util.Scanner;
+
+public class vowelconstantfinder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char character;
+        Scanner sacnner = new Scanner(System.in);
+ 
+        System.out.print("Enter an Alphabet : ");
+        character = sacnner.next().charAt(0);
+ 
+        if(character=='a' || character=='A' || character=='e' || character=='E' ||
+        character=='i' || character=='I' || character=='o' || character=='O' ||
+        character=='u' || character=='U'){
+            System.out.print(character+" is a Vowel");
+        }else{
+            System.out.print(character+ " is a Consonant");
+        }
+	}
+
+}
+![Screenshot (93)](https://user-images.githubusercontent.com/69143912/121507613-6b11b500-ca02-11eb-954e-360387b8867c.png)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-f)Java Program to check Leap Year
-g)Java Program to check whether input character is vowel or consonant
 h)Java Program to calculate compound interest
 i)Java Program to calculate simple interest
 j)Java Program to find quotient and remainder
