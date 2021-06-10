@@ -1,5 +1,5 @@
-1.JAVA BASIC PROGRAMS
-a)Java Program to Add two Numbers
+###  1.JAVA BASIC PROGRAMS
+##a)Java Program to Add two Numbers
   
  public class AddTwoNumbers {
 
@@ -15,7 +15,7 @@ a)Java Program to Add two Numbers
 ![Screenshot (79)](https://user-images.githubusercontent.com/69143912/121499446-06069100-c9fb-11eb-8b2a-194699d3c2b7.png)
 
 
-b)Java Program to Check Even or Odd Number
+  ##  b)Java Program to Check Even or Odd Number
 
 import java.util.Scanner;
 public class Odd_Even
@@ -40,20 +40,33 @@ public class Odd_Even
 ![Screenshot (82)](https://user-images.githubusercontent.com/69143912/121501438-e1131d80-c9fc-11eb-8439-fade7c462620.png)
 
 
+  ##  c)Java Program to add two binary numbers
+
+
+  public class AddTwoBinaryNumbers 
+{
+
+	public static void main(String[] args)
+	{
+		  String binaryNumber1 = "10101", binaryNumber2 = "10001";
+
+		   
+		  Integer integer1 = Integer.parseInt(binaryNumber1, 2);
+		  Integer integer2 = Integer.parseInt(binaryNumber2, 2);
+
+		  
+		  Integer output = integer1 + integer2;
+		  
+		  
+		  System.out.println(Integer.toBinaryString(output));
+
+		 }
+	}
+	![b2](https://user-images.githubusercontent.com/69143912/121503135-677c2f00-c9fe-11eb-8174-782749e5bc69.jpeg)
 
 
 
 
-
-
-
-
-
-
-
-
-
-c)Java Program to add two binary numbers
 d)Java Program to add two complex numbers
 e)Java Program to Multiply two Numbers
 f)Java Program to check Leap Year
