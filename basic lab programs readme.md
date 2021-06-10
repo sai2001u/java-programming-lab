@@ -13,5 +13,5 @@ a)Java Program to Add two Numbers
 	}
 
 }
-![Test Image 1](screenshot(77).png)
+![Test Image 1](screenshot(79).png)
 
