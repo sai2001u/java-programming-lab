@@ -183,7 +183,7 @@ import java.util.Scanner;
 public class vowelconstantfinder {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		char character;
         Scanner sacnner = new Scanner(System.in);
  
