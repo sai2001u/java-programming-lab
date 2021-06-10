@@ -1,5 +1,3 @@
-![Screenshot (79)](https://user-images.githubusercontent.com/69143912/121499446-06069100-c9fb-11eb-8b2a-194699d3c2b7.png)
-![Screenshot (79)](https://user-images.githubusercontent.com/69143912/121499490-11f25300-c9fb-11eb-8d3a-378276681963.png)
 1.JAVA BASIC PROGRAMS
 a)Java Program to Add two Numbers
   
@@ -15,5 +13,5 @@ a)Java Program to Add two Numbers
 	}
 
 }
-![Test Image 1](screenshot(79).png)
+![Screenshot (79)](https://user-images.githubusercontent.com/69143912/121499446-06069100-c9fb-11eb-8b2a-194699d3c2b7.png)
 
