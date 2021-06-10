@@ -26,7 +26,8 @@ public class Odd_Even
         n = s.nextInt();
         if(n % 2 == 0)
         {
-        	System.out.println("The given number"+n+" is Even");
+        	
+		System.out.println("The given number"+n+" is Even");
         	
         }
         else
