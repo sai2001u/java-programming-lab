@@ -62,7 +62,8 @@ public class Odd_Even
 
 		 }
 	}
-       ![Screenshot (85)](https://user-images.githubusercontent.com/69143912/121504050-48ca6800-c9ff-11eb-8bb0-125dab2cabde.png)
+![Screenshot (85)](https://user-images.githubusercontent.com/69143912/121504428-a19a0080-c9ff-11eb-89b4-790c76ece12e.png)
+
 
 
 
