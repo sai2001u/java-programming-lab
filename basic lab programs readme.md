@@ -15,10 +15,10 @@
 
   ##  b)Java Program to Check Even or Odd Number
 
-import java.util.Scanner;
-public class Odd_Even
-{
-  public static void main(String[] args)
+    import java.util.Scanner;
+    public class Odd_Even
+    {
+       public static void main(String[] args)
 	{
 		int n;
 		Scanner s = new Scanner(System.in);
