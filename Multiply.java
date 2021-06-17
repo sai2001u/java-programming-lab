@@ -1,14 +1,29 @@
 import java.util.Scanner;
-class Multipy{
-public static void main(String[] args){
-int num1, num2, result;
-Scanner sc = new Scanner(System.in);
-System.out.println("Enter num1: ");
-num1 = sc.nextInt();
-System.out.println("Enter num2: ");
-num2 = sc.nextInt();
-sc.close();
-result = num1 * num2;
-System.out.println("num1 * num2: " +result);
-}
+
+
+public class MultiplyTwoNumbers {
+
+	public static void main(String[] args) {
+		
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter first number: ");
+
+        
+        int num1 = scan.nextInt();
+        
+        System.out.print("Enter second number: ");
+        int num2 = scan.nextInt();
+
+        
+        scan.close();
+        
+        
+        int product = num1*num2;
+        
+        
+        System.out.println("Output: "+product);
+
+
+	}
+
 }
