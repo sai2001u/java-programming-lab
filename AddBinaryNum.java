@@ -29,5 +29,6 @@ public class AddBinaryNum {
 		System.out.print(sum[i--]);
 	}
 	System.out.print("\n");  
+	   
    }
 }
